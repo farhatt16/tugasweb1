@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Toko Sepatu Keren</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        hr {
+            border: 0;
+            border-top: 3px solid #3498db;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .contact-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact-container h2 {
+            font-size: 32px;
+            color: #e74c3c;
+            margin-bottom: 30px;
+        }
+
+        .contact-methods {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-box {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-box a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="profil.html">Profil</a> | 
+        <a href="about.html">About</a> | 
+        <a href="gallery.html">Gallery</a> | 
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<hr>
+
+<div class="contact-container">
+    <h2>Kontak Kami</h2>
+
+    <div class="contact-methods">
+        <div class="contact-box" onclick="window.location.href='https://mail.google.com/mail/u/1/#inbox'">
+            <h3>Email</h3>
+            <p>Kirim email ke kami</p>
+        </div>
+
+        <div class="contact-box" onclick="window.location.href='https://wa.me/089503828134'">
+            <h3>WhatsApp</h3>
+            <p>Chat langsung dengan kami</p>
+        </div>
+
+        <div class="contact-box" onclick="window.location.href='https://www.instagram.com/farhata_adri/'">
+            <h3>Instagram</h3>
+            <p>Follow kami di Instagram</p>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<footer>
+    &copy; 2024 Toko ATZ SHOESHOP. All Rights Reserved.
+</footer>
+
+</body>
+</html>

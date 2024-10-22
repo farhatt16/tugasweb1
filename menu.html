@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(45deg, #8E44AD, #3498DB); /* Background gradien */
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur101.cur'), auto; /* Kursor Khusus */
+        }
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #ecf0f1;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #ecf0f1;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px;
+        }
+        a::before {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background: #3498DB;
+            bottom: 0;
+            left: 0;
+            transition: width 0.4s ease;
+        }
+        a:hover::before {
+            width: 100%;
+        }
+        a:hover {
+            color: #3498DB;
+        }
+    </style>
+</head>
+<body>
+    <h3>Daftar Tugas</h3>
+    <ul>
+        <li><a href="home.html" target="kanan">HOME</a></li>
+        <li><a href="tugas1.html" target="kanan">Tugas 1</a></li>
+        <li><a href="tugas2.html" target="kanan">Tugas 2</a></li>
+        <li><a href="tugas3.html" target="kanan">Tugas 3</a></li>
+        <li><a href="tugas4.html" target="kanan">Tugas 4</a></li>
+        <li><a href="p5/index.html" target="kanan">Tugas 5</a></li>
+        <li><a href="tugas6.html" target="kanan">Tugas 6</a></li>
+        <li><a href="tugas7.html" target="kanan">Tugas 7</a></li>
+        <li><a href="tugas8.html" target="kanan">Tugas 8</a></li>
+        <li><a href="p8/p81.html" target="kanan">Tugas 9</a></li>
+        <li><a href="p8/p82.html" target="kanan">Tugas 10</a></li>
+        <li><a href="p8 tugas/index.html" target="kanan">Tugas 11</a></li>
+    </ul>
+</body>
+</html>

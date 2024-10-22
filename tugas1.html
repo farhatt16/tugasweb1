@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+    <h2>Form Pendaftaran</h2>
+
+    <form action="proses_pendaftaran.php" method="post" enctype="multipart/form-data">
+
+        <!-- Nama -->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required> 
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required> 
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required> 
+        <label for="other">Other</label><br>
+
+        <!-- Alamat -->
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required><br>
+
+        <!-- Negara -->
+        <label for="negara">Negara:</label>
+        <select id="negara" name="negara" required>
+            <option value="">Pilih Negara</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Vietnam">Vietnam</option>
+        </select><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Upload Foto -->
+        <label for="foto">Unggah Foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
+
+        <!-- Tombol Submit -->
+        <button type="submit">Daftar</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATZ SHOESHOP</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        hr {
+            border: 0;
+            border-top: 3px solid #3498db;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+
+        .content h2 {
+            color: #e74c3c;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 20px;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        .content a {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        .content a:hover {
+            color: #e74c3c;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="profil.html">Profil</a> | 
+        <a href="about.html">About</a> | 
+        <a href="gallery.html">Gallery</a> | 
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<hr>
+
+<div class="content">
+    <h2>Selamat Datang di ATZ SHOESHOP</h2>
+    <p>Kami menawarkan berbagai macam sepatu berkualitas tinggi untuk gaya dan kenyamanan Anda. Jelajahi koleksi kami dan temukan sepatu yang cocok untuk Anda!</p>
+
+    <!-- Galeri Sepatu -->
+    <div class="gallery">
+        <img src="Adidas2.jpeg" alt="Sepatu 1">
+        <img src="Converse2.jpeg" alt="Sepatu 2">
+        <img src="Vans2.jpeg" alt="Sepatu 3">
+    </div>
+
+    <p>Jangan ragu untuk <a href="kontak.html">menghubungi kami</a> jika Anda memiliki pertanyaan atau ingin memesan sepatu favorit Anda!</p>
+
+    <button class="btn" onclick="window.location.href='gallery.html'">Lihat Koleksi Lengkap</button>
+</div>
+
+<hr>
+
+<footer>
+    &copy; 2024 ATZ SHOESHOP. All Rights Reserved.
+</footer>
+
+</body>
+</html>
